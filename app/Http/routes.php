@@ -22,5 +22,7 @@ Route::get('proveedores', 'ProviderController@getRegistrar');
 Route::get('almacenes', 'AlmacenController@getRegistrar');
 Route::get('materiales', 'MaterialController@getRegistrar');
 
+//gfdgfhgfhrtgerg
+
 
 
