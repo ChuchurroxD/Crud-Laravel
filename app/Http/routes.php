@@ -18,11 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('clientes', 'ClientController@getRegistrar');
+Route::post('cliente', 'ClientController@postRegistrar');
+Route::get('cliente/{id}', 'ClientController@deleteCliente');
 Route::get('proveedores', 'ProviderController@getRegistrar');
 Route::get('almacenes', 'AlmacenController@getRegistrar');
 Route::get('materiales', 'MaterialController@getRegistrar');
-
-//gfdgfhgfhrtgerg
 
 
 

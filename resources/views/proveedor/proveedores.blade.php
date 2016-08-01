@@ -28,6 +28,7 @@
                         </div>
                         <!-- FIN DE CONTENIDO -->
                     </div><!-- /.col -->
+
                 </div><!-- /.row -->
             </div><!-- /.page-content -->
 

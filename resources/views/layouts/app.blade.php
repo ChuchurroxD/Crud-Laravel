@@ -255,7 +255,10 @@
 <script type="text/javascript">
     if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>
+<script src="assets/js/jquery.2.1.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/jquery.dataTables.bootstrap.min.js"></script>
 
 <!-- page specific plugin scripts -->
 
@@ -266,3 +269,4 @@
 <!-- inline scripts related to this page -->
 </body>
 </html>
+    @yield('script')
